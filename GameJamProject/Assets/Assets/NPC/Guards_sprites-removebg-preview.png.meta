@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 793b47f1e0e9e284da26d4866defdc16
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8993244227472513853
+    second: Guards_sprites-removebg-preview_0
+  - first:
+      213: -2911440480407498197
+    second: Guards_sprites-removebg-preview_1
+  - first:
+      213: 4188555794127672933
+    second: Guards_sprites-removebg-preview_2
+  - first:
+      213: -6614484529366938949
+    second: Guards_sprites-removebg-preview_3
+  - first:
+      213: -6049950543189629948
+    second: Guards_sprites-removebg-preview_4
+  - first:
+      213: -3630969392384292053
+    second: Guards_sprites-removebg-preview_5
+  - first:
+      213: 7048745830343830546
+    second: Guards_sprites-removebg-preview_6
+  - first:
+      213: -3422198013167355371
+    second: Guards_sprites-removebg-preview_7
+  - first:
+      213: -55066068671098041
+    second: Guards_sprites-removebg-preview_8
+  - first:
+      213: 3089047138196847333
+    second: Guards_sprites-removebg-preview_9
+  - first:
+      213: -9150294049743931111
+    second: Guards_sprites-removebg-preview_10
+  - first:
+      213: -972267455117742165
+    second: Guards_sprites-removebg-preview_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guards_sprites-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 323
+        width: 97
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bd4d40afb6ecc70800000000000000
+      internalID: 8993244227472513853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_sprites-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 323
+        width: 98
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b225e9cfe4c7897d0800000000000000
+      internalID: -2911440480407498197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_sprites-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 323
+        width: 105
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56652e68d4db02a30800000000000000
+      internalID: 4188555794127672933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_sprites-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 323
+        width: 100
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba44c69d51a434a0800000000000000
+      internalID: -6614484529366938949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_sprites-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 168
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4042084f8024a0ca0800000000000000
+      internalID: -6049950543189629948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_sprites-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 168
+        width: 109
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b4e9843943c9dc0800000000000000
+      internalID: -3630969392384292053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_sprites-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 168
+        width: 99
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ce8a1acfc22d160800000000000000
+      internalID: 7048745830343830546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_sprites-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 168
+        width: 110
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51abc12e909e180d0800000000000000
+      internalID: -3422198013167355371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_sprites-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 6
+        width: 106
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7439ea9c3bd5c3ff0800000000000000
+      internalID: -55066068671098041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_sprites-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 6
+        width: 109
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eaf8a671008eda20800000000000000
+      internalID: 3089047138196847333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_sprites-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 6
+        width: 109
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91974a6ca00a30180800000000000000
+      internalID: -9150294049743931111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_sprites-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 6
+        width: 119
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafa80f96efc182f0800000000000000
+      internalID: -972267455117742165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 42afb274ccde8f24ba7ae41937560f97
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Guards_sprites-removebg-preview_0: 8993244227472513853
+      Guards_sprites-removebg-preview_1: -2911440480407498197
+      Guards_sprites-removebg-preview_10: -9150294049743931111
+      Guards_sprites-removebg-preview_11: -972267455117742165
+      Guards_sprites-removebg-preview_2: 4188555794127672933
+      Guards_sprites-removebg-preview_3: -6614484529366938949
+      Guards_sprites-removebg-preview_4: -6049950543189629948
+      Guards_sprites-removebg-preview_5: -3630969392384292053
+      Guards_sprites-removebg-preview_6: 7048745830343830546
+      Guards_sprites-removebg-preview_7: -3422198013167355371
+      Guards_sprites-removebg-preview_8: -55066068671098041
+      Guards_sprites-removebg-preview_9: 3089047138196847333
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: 2568a02b26ccb4f4b9eb5fc6e21edb80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3390920667871687033
+    second: Snake Attack animation sprite sheet_0
+  - first:
+      213: -558111016271315972
+    second: Snake Attack animation sprite sheet_1
+  - first:
+      213: -337103793747373807
+    second: Snake Attack animation sprite sheet_2
+  - first:
+      213: 6999795616461344555
+    second: Snake Attack animation sprite sheet_3
+  - first:
+      213: -1830494168554378622
+    second: Snake Attack animation sprite sheet_4
+  - first:
+      213: -6201037749424894988
+    second: Snake Attack animation sprite sheet_5
+  - first:
+      213: -8957184198521310225
+    second: Snake Attack animation sprite sheet_6
+  - first:
+      213: -8729254949151392448
+    second: Snake Attack animation sprite sheet_7
+  - first:
+      213: -849467653398750257
+    second: Snake Attack animation sprite sheet_8
+  - first:
+      213: 4249393624531707464
+    second: Snake Attack animation sprite sheet_9
+  - first:
+      213: -5650380113111836180
+    second: Snake Attack animation sprite sheet_10
+  - first:
+      213: -5137401166073953408
+    second: Snake Attack animation sprite sheet_11
+  - first:
+      213: -5667683944463438908
+    second: Snake Attack animation sprite sheet_12
+  - first:
+      213: -508066435536764438
+    second: Snake Attack animation sprite sheet_13
+  - first:
+      213: -6909473222141796086
+    second: Snake Attack animation sprite sheet_14
+  - first:
+      213: -5952696110284439517
+    second: Snake Attack animation sprite sheet_15
+  - first:
+      213: 7714842175773718452
+    second: Snake Attack animation sprite sheet_16
+  - first:
+      213: -6626561255353299126
+    second: Snake Attack animation sprite sheet_17
+  - first:
+      213: -8034855313252027157
+    second: Snake Attack animation sprite sheet_18
+  - first:
+      213: -8124406542473229883
+    second: Snake Attack animation sprite sheet_19
+  - first:
+      213: 6940573006319857838
+    second: Snake Attack animation sprite sheet_20
+  - first:
+      213: 2012968984181425035
+    second: Snake Attack animation sprite sheet_21
+  - first:
+      213: 2105847438371818720
+    second: Snake Attack animation sprite sheet_22
+  - first:
+      213: -7731627580323577806
+    second: Snake Attack animation sprite sheet_23
+  - first:
+      213: 7008057447669397846
+    second: Snake Attack animation sprite sheet_24
+  - first:
+      213: -4458579363996288350
+    second: Snake Attack animation sprite sheet_25
+  - first:
+      213: -1471557496596359618
+    second: Snake Attack animation sprite sheet_26
+  - first:
+      213: 3053945151927484462
+    second: Snake Attack animation sprite sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snake Attack animation sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 911
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846a50dbcf0e8fa30800000000000000
+      internalID: 4249393624531707464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Attack animation sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 879
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7b1397510a01b60800000000000000
+      internalID: 7714842175773718452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Attack animation sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 882
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fcc44b5a9b904a0800000000000000
+      internalID: -6626561255353299126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Attack animation sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 563
+        width: 222
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4f3ffb9a57e7090800000000000000
+      internalID: -8034855313252027157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Attack animation sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 572
+        width: 224
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c906096b4f404f80800000000000000
+      internalID: -8124406542473229883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Attack animation sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 663
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea03c53606ed15060800000000000000
+      internalID: 6940573006319857838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Attack animation sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 570
+        width: 191
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83430e30a08feb10800000000000000
+      internalID: 2012968984181425035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Attack animation sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 284
+        width: 199
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230433bfdadb3b490800000000000000
+      internalID: -7731627580323577806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Attack animation sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 49
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6597ddd4e1f914160800000000000000
+      internalID: 7008057447669397846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Attack animation sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 291
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa3d16e0b1ff12c0800000000000000
+      internalID: -4458579363996288350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Attack animation sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 48
+        width: 201
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e369fc4e04af39be0800000000000000
+      internalID: -1471557496596359618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Attack animation sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 283
+        width: 196
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e200a286feac16a20800000000000000
+      internalID: 3053945151927484462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2fa2dfd087975954e97710dcdd14c767
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snake Attack animation sprite sheet_0: -3390920667871687033
+      Snake Attack animation sprite sheet_1: -558111016271315972
+      Snake Attack animation sprite sheet_10: -5650380113111836180
+      Snake Attack animation sprite sheet_11: -5137401166073953408
+      Snake Attack animation sprite sheet_12: -5667683944463438908
+      Snake Attack animation sprite sheet_13: -508066435536764438
+      Snake Attack animation sprite sheet_14: -6909473222141796086
+      Snake Attack animation sprite sheet_15: -5952696110284439517
+      Snake Attack animation sprite sheet_16: 7714842175773718452
+      Snake Attack animation sprite sheet_17: -6626561255353299126
+      Snake Attack animation sprite sheet_18: -8034855313252027157
+      Snake Attack animation sprite sheet_19: -8124406542473229883
+      Snake Attack animation sprite sheet_2: -337103793747373807
+      Snake Attack animation sprite sheet_20: 6940573006319857838
+      Snake Attack animation sprite sheet_21: 2012968984181425035
+      Snake Attack animation sprite sheet_22: 2105847438371818720
+      Snake Attack animation sprite sheet_23: -7731627580323577806
+      Snake Attack animation sprite sheet_24: 7008057447669397846
+      Snake Attack animation sprite sheet_25: -4458579363996288350
+      Snake Attack animation sprite sheet_26: -1471557496596359618
+      Snake Attack animation sprite sheet_27: 3053945151927484462
+      Snake Attack animation sprite sheet_3: 6999795616461344555
+      Snake Attack animation sprite sheet_4: -1830494168554378622
+      Snake Attack animation sprite sheet_5: -6201037749424894988
+      Snake Attack animation sprite sheet_6: -8957184198521310225
+      Snake Attack animation sprite sheet_7: -8729254949151392448
+      Snake Attack animation sprite sheet_8: -849467653398750257
+      Snake Attack animation sprite sheet_9: 4249393624531707464
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
