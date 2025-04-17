@@ -3,58 +3,123 @@ using UnityEngine.UI;
 
 public class BalanceMeter : MonoBehaviour
 {
-    public Slider balanceSlider;
-    public Image fillImage;
+    [Header("References")]
+    public RectTransform marker;
+    public RectTransform fillArea;
 
-    public Color goodColor = Color.green;
-    public Color neutralColor = Color.yellow;
-    public Color badColor = Color.red;
+    public RectTransform leftFillRect;
+    public RectTransform rightFillRect;
 
-    public float changeAmount = 10f; // How much you "intend" to change per press
-    public float smoothSpeed = 5f; // How fast it actually moves
+    public Image leftFillImage;
+    public Image rightFillImage;
 
-    private float targetValue; // Desired value we want to move toward
+    [Header("Colors")]
+    public Color goodColor = new Color(0f, 0.8f, 0f);             // Bright Green
+    public Color semiGoodColor = new Color(0.5f, 1f, 0.5f);       // Light Green
+    public Color neutralColor = new Color(1f, 1f, 0.5f);          // Light Yellow
+    public Color semiBadColor = new Color(1f, 0.5f, 0f);          // Orange
+    public Color badColor = new Color(0.803f, 0.11f, 0.094f);     // #CD1C18 custom red
+
+    [Header("Settings")]
+    public float markerMoveSpeed = 5f;
+    public float colorLerpSpeed = 5f;
+    private int currentStep = 0;
+    private readonly int maxStep = 2; // Maximum left/right steps
+
+    private Vector2 targetMarkerPos;
 
     private void Start()
     {
-        targetValue = balanceSlider.value; // Start at the current slider value
+        SetMarkerPosition(true); // Snap instantly at start
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            targetValue += changeAmount;
+            if (currentStep < maxStep)
+            {
+                currentStep++;
+                SetMarkerPosition();
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            targetValue -= changeAmount;
+            if (currentStep > -maxStep)
+            {
+                currentStep--;
+                SetMarkerPosition();
+            }
         }
 
-        // Clamp targetValue between min and max
-        targetValue = Mathf.Clamp(targetValue, balanceSlider.minValue, balanceSlider.maxValue);
+        marker.anchoredPosition = Vector2.Lerp(marker.anchoredPosition, targetMarkerPos, Time.deltaTime * markerMoveSpeed);
 
-        // Smoothly move balanceSlider.value toward targetValue
-        balanceSlider.value = Mathf.Lerp(balanceSlider.value, targetValue, Time.deltaTime * smoothSpeed);
-
-        UpdateFillColor();
+        UpdateFillColors();
     }
 
-    private void UpdateFillColor()
+    private void SetMarkerPosition(bool instant = false)
     {
-        float t = balanceSlider.value / balanceSlider.maxValue;
+        float width = fillArea.rect.width;
+        float stepWidth = width / (maxStep * 2);
 
-        // Red to Yellow (Bad to Neutral)
-        if (t < 0.5f)
+        targetMarkerPos = new Vector2(stepWidth * currentStep, 0f);
+
+        if (instant)
         {
-            fillImage.color = Color.Lerp(badColor, neutralColor, t * 2f);
+            marker.anchoredPosition = targetMarkerPos;
         }
-        // Yellow to Green (Neutral to Good)
-        else
-        {
-            fillImage.color = Color.Lerp(neutralColor, goodColor, (t - 0.5f) * 2f);
-        }
+
+        SetFillSizes();
     }
 
+    private void SetFillSizes()
+    {
+        float fullWidth = fillArea.rect.width;
+        float halfWidth = fullWidth / 2f;
+        float stepWidth = fullWidth / (maxStep * 2);
+
+        float markerPositionX = halfWidth + (currentStep * stepWidth);
+
+        // LeftFill stretches from left to marker
+        leftFillRect.sizeDelta = new Vector2(markerPositionX, leftFillRect.sizeDelta.y);
+
+        // RightFill stretches from marker to right
+        rightFillRect.sizeDelta = new Vector2(fullWidth - markerPositionX, rightFillRect.sizeDelta.y);
+    }
+
+    private void UpdateFillColors()
+    {
+        Color leftTargetColor = neutralColor;
+        Color rightTargetColor = neutralColor;
+
+        if (currentStep == 2)
+        {
+            leftTargetColor = goodColor;
+            rightTargetColor = goodColor;
+        }
+        else if (currentStep == 1)
+        {
+            leftTargetColor = neutralColor;
+            rightTargetColor = semiGoodColor;
+        }
+        else if (currentStep == 0)
+        {
+            leftTargetColor = neutralColor;
+            rightTargetColor = neutralColor;
+        }
+        else if (currentStep == -1)
+        {
+            leftTargetColor = semiBadColor;
+            rightTargetColor = neutralColor;
+        }
+        else if (currentStep == -2)
+        {
+            leftTargetColor = badColor;
+            rightTargetColor = badColor;
+        }
+
+        leftFillImage.color = Color.Lerp(leftFillImage.color, leftTargetColor, Time.deltaTime * colorLerpSpeed);
+        rightFillImage.color = Color.Lerp(rightFillImage.color, rightTargetColor, Time.deltaTime * colorLerpSpeed);
+    }
 }
