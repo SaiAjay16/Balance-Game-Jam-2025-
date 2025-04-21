@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (!canMove)
+        if (!canMove || PuzzleManager.isPuzzleOpen)
         {
             ShowInteractPrompt(); // still let prompt appear while paused
             return;
