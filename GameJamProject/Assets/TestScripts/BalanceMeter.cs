@@ -35,7 +35,7 @@ public class BalanceMeter : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             if (currentStep < maxStep)
             {
@@ -44,7 +44,7 @@ public class BalanceMeter : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             if (currentStep > -maxStep)
             {

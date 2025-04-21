@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 7cbf087852551414cbb96de93a0e337c
+guid: 36ef221a53c6a6f409559cc86a6f715a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3967751414374445221
-    second: test_background-sprite_0
+      213: -8394717032059144736
+    second: TamilWarrior_Right-Photoroom_0
+  - first:
+      213: 7385698921355562568
+    second: TamilWarrior_Right-Photoroom_1
+  - first:
+      213: 7632491057938671694
+    second: TamilWarrior_Right-Photoroom_2
+  - first:
+      213: 1454882798646372348
+    second: TamilWarrior_Right-Photoroom_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,27 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: test_background-sprite_0
+      name: TamilWarrior_Right-Photoroom_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1536
+        x: 3
+        y: 237
+        width: 328
+        height: 525
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline:
-      - - {x: 512, y: 768}
-        - {x: -512, y: 768}
-        - {x: -512, y: -768}
-        - {x: 512, y: -768}
+      outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b5f48255c17bfe8c0800000000000000
-      internalID: -3967751414374445221
+      spriteID: 0e571322659ff7b80800000000000000
+      internalID: -8394717032059144736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TamilWarrior_Right-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 227
+        width: 309
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e4261b9064f7660800000000000000
+      internalID: 7385698921355562568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TamilWarrior_Right-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 226
+        width: 326
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48a7c3bd2e0ce960800000000000000
+      internalID: 7632491057938671694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TamilWarrior_Right-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 226
+        width: 314
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7a4237238c03410800000000000000
+      internalID: 1454882798646372348
       vertices: []
       indices: 
       edges: []
@@ -142,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3b58c45bfef50b848864b0821ac128a5
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -151,8 +222,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      test_background-sprite_0: -3967751414374445221
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

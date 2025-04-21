@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,15 +9,14 @@ public class PlayerMovement : MonoBehaviour
     public bool canMove = true;
 
     private Rigidbody2D rb;
+    private Animator animator;
     private Vector2 movement;
     private Vector2 lastMoveDir;
-
-
-
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>(); // New: Animator reference
     }
 
     private void Update()
@@ -31,17 +30,17 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        ShowInteractPrompt();
-
-
         // Optional: prevent diagonal movement
         if (movement.x != 0) movement.y = 0;
 
-        // Save last non-zero direction for interaction
         if (movement != Vector2.zero)
         {
             lastMoveDir = movement;
         }
+
+        UpdateAnimation(); // 🎯 New: Update animator based on movement
+
+        ShowInteractPrompt();
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -68,7 +67,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Interact()
     {
-
         if (lastMoveDir == Vector2.zero) return;
 
         Vector3 interactPos = transform.position + (Vector3)lastMoveDir;
@@ -117,8 +115,46 @@ public class PlayerMovement : MonoBehaviour
             {
                 npc.ShowPrompt(false);
             }
-
         }
     }
 
+    private void UpdateAnimation()
+    {
+        if (movement.x > 0)
+        {
+            animator.Play("Walk_Right");
+        }
+        else if (movement.x < 0)
+        {
+            animator.Play("Walk_Left");
+        }
+        else if (movement.y > 0)
+        {
+            animator.Play("PlayerMoveTopAnimation");
+        }
+        else if (movement.y < 0)
+        {
+            animator.Play("PlayerMoveDownAnimation");
+        }
+        else
+        {
+            // No movement -> Idle facing last direction
+            if (lastMoveDir.x > 0)
+            {
+                animator.Play("Walk_Right"); // for now use walk anims even for idle (can improve later)
+            }
+            else if (lastMoveDir.x < 0)
+            {
+                animator.Play("Walk_Left");
+            }
+            else if (lastMoveDir.y > 0)
+            {
+                animator.Play("Walk_Up");
+            }
+            else if (lastMoveDir.y < 0)
+            {
+                animator.Play("Walk_Down");
+            }
+        }
+    }
 }

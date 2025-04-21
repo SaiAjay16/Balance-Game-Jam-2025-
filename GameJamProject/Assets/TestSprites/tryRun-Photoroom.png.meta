@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 7cbf087852551414cbb96de93a0e337c
+guid: e75e55120bf593e46bdfce340fcd051c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3967751414374445221
-    second: test_background-sprite_0
+      213: 7748777330271058599
+    second: tryRun-Photoroom_0
+  - first:
+      213: 5962721983682101602
+    second: tryRun-Photoroom_1
+  - first:
+      213: 195395754791119973
+    second: tryRun-Photoroom_2
+  - first:
+      213: 3345456014105366468
+    second: tryRun-Photoroom_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,27 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: test_background-sprite_0
+      name: tryRun-Photoroom_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1536
+        x: 16
+        y: 213
+        width: 248
+        height: 389
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline:
-      - - {x: 512, y: 768}
-        - {x: -512, y: 768}
-        - {x: -512, y: -768}
-        - {x: 512, y: -768}
+      outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b5f48255c17bfe8c0800000000000000
-      internalID: -3967751414374445221
+      spriteID: 7aaf7665def298b60800000000000000
+      internalID: 7748777330271058599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryRun-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 213
+        width: 239
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261c8c36d08dfb250800000000000000
+      internalID: 5962721983682101602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryRun-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 213
+        width: 266
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ca1fa576f26b200800000000000000
+      internalID: 195395754791119973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryRun-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 213
+        width: 258
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfc17415827d6e20800000000000000
+      internalID: 3345456014105366468
       vertices: []
       indices: 
       edges: []
@@ -142,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3b58c45bfef50b848864b0821ac128a5
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -151,8 +222,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      test_background-sprite_0: -3967751414374445221
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
